@@ -1,0 +1,1 @@
+go build -o bin/program.exe projects/helloWorld.go && bin\program.exe
