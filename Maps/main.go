@@ -18,4 +18,7 @@ func main() {
 	} else {
 		fmt.Println("Não temos o número de Davi :(")
 	}
+
+	delete(amigos, "joana")
+	fmt.Println("Número de Joana: ", amigos["joana"])
 }
