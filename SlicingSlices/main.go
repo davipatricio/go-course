@@ -9,4 +9,8 @@ func main() {
 	todossabores := sabores[:]
 	fmt.Println(fatia)
 	fmt.Println(todossabores)
+
+	// Remover o item portuguesa
+	sabores = append(sabores[:2], sabores[3:]...)
+	fmt.Println(sabores)
 }
